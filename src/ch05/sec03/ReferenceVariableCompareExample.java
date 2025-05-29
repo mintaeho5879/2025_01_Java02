@@ -1,0 +1,15 @@
+package ch05.sec03;
+
+public class ReferenceVariableCompareExample {
+    public static void main(String[] args) {
+        int[] arr1, arr2, arr3;
+
+        arr1 = new int[] { 1 ,2 ,3 };
+        arr2 = new int[] { 1 ,2 ,3 };
+        arr3 = arr2;
+
+        System.out.println(arr1 == arr2); // false
+        System.out.println(arr2 == arr3); // true  shallow copy 얕은 복사. 주소값 복사
+
+    }
+}

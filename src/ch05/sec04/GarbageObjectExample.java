@@ -1,0 +1,12 @@
+package ch05.sec04;
+
+public class GarbageObjectExample {
+    public static void main(String[] args) {
+        String Hobby = "여행"; // String 객체의 주소값이 Hobby 변수에 대입
+        Hobby = null; // 여행문자열을 가지고있는 String 객체는 낙동강 오리알 신세
+
+        String kind1 = "자동차";
+        String kind2 = kind1;
+        kind1 = null;
+    }
+}

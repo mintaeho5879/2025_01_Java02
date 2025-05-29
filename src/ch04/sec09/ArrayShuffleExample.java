@@ -13,12 +13,12 @@ public class ArrayShuffleExample {
         0~9 랜덤값 구한다. 예를들어 8이 나왔다. 1번방과 8번방 스와핑한다.
         0~9 랜덤값 구한다. 예를들어 5이 나왔다. 2번방과 5번방 스와핑한다.
         */
-       int num2 = 0;
+       int temp = 0;
         for(int i = 0 ; i < arr.length ; i++) {
-            int num = (int)(Math.random() * 10.0);
-            num2 = arr[i];
+            int num = (int)(Math.random() * arr.length);
+            temp = arr[i];
             arr[i] = arr[num];
-            arr[num] = num2;
+            arr[num] = temp;
         }
 
         System.out.println(Arrays.toString(arr));
