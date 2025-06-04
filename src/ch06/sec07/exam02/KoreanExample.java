@@ -13,5 +13,4 @@ public class KoreanExample {
         System.out.println(korean2.name); //홍길동
         System.out.println(korean2.ssn); //901123-1543123
     }
-    }
-
+}
