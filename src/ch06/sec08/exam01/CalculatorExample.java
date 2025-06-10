@@ -1,4 +1,4 @@
-package ch06.sec08;
+package ch06.sec08.exam01;
 
 public class CalculatorExample {
     public static void main(String[] args) {
@@ -6,7 +6,7 @@ public class CalculatorExample {
         int result = cal.plus(1, 2);
         System.out.println(result);
         System.out.println("끝");
-for(int i = 0 ; i<2000 ; i++){
+for(int i = 0 ; i < 2000 ; i++){
     cal.powerOn();
 }
         cal.powerOn();

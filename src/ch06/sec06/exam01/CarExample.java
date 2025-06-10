@@ -7,5 +7,10 @@ public class CarExample {
         System.out.println("모델명: " + car.model);
         System.out.println("시동여부: " + car.start);
         System.out.println("현재속도: " + car.speed);
+
+        Car car2 = new Car();
+        System.out.println("2모델명: " + car.model);
+        System.out.println("2시동여부: " + car.start);
+        System.out.println("2현재속도: " + car.speed);
     }
 }
