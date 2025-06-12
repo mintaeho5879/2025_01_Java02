@@ -15,5 +15,4 @@ public class SamsungTv {
     public static void staticMethod(int n1, int n2) {
         System.out.printf("%s, %d, %d", brand, n1, n2);
     }
-
 }
