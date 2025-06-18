@@ -1,4 +1,4 @@
-package ch07.sec02.exam01.poly;
+package ch07.sec07.poly;
 
 public class Cow extends Animal{
     @Override

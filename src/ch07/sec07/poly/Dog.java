@@ -1,8 +1,11 @@
-package ch07.sec02.exam01.poly;
+package ch07.sec07.poly;
 
 public class Dog extends Animal{
     @Override
     public void crying() {
         System.out.println("멍~ 멍~");
+    }
+    public void jump() {
+        System.out.println("점프점프");
     }
 }
